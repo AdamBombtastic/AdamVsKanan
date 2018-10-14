@@ -1,0 +1,80 @@
+<html>
+    <head>
+       <style>
+           body {
+               font-family: sans-serif;
+			   background-color: #2288BB;
+			   color: #ffffff;
+           }
+           .projectContainer {
+                border: 1px solid #44222222;
+				border-radius: 15px;
+                width: 20%;
+                height: fit-content;
+                padding: 20px;
+                margin: 10px;
+				background-color: #FFFFFF;
+				color: #222222;
+                overflow:auto;
+           }
+           .cardContentWrapper {
+               
+               height: fit-content;
+               bottom: 10px;
+               position: relative;
+           }
+       ol {
+           text-decoration: none;
+           list-style: none;
+       }
+       progress {
+           width: 100%;
+           background-color: #f4b541;
+       }
+       .voteButton {
+            font-size:0rem;
+            display: inline-block;
+            border: 1px solid;
+            width: 40%;
+            height: 50px;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 50px;
+            margin: 0;
+            padding: 0;
+            color: white;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-top:20px;
+            margin-left: 10px;
+            margin-right: 10px;
+
+       }
+       .adamTheme {
+        font-size:1rem;
+        border: 1px solid #f4b541;
+        background: #f4b541;
+        float:left;
+        
+       }
+       .kananTheme {
+        font-size:1rem;
+        border: 1px solid #552583 ;
+        background: #552583 ;
+        float:right;
+       }
+       progress::-webkit-progress-bar { background:#552583 ; }
+        progress::-webkit-progress-value {  background: #f4b541;}
+       
+       </style>
+    </head>
+    <body>
+        <div id="headerWrapper">
+            <h1>My Progress</h1>
+        </div>
+        <div id="contentWrapper">
+            <ol id="itemList"></ol>
+        </div>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>
